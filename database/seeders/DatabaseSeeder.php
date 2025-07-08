@@ -22,5 +22,7 @@ class DatabaseSeeder extends Seeder
 
         // Seed the principles table
         $this->call(PrincipleSeeder::class);
+        // Seed the teams table
+        $this->call(TeamSeeder::class);
     }
 }
